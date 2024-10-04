@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester United Store - Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Style for the Gallery Section */
+        #Gallery {
+            padding: 50px 0;
+            background-color: #01101f;
+        }
+
+        #Gallery h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #dc3545;
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 0 20px;
+        }
+
+        .gallery-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Hover Effect */
+        .gallery-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg" alt="Manchester United Logo" width="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="registration.html">Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="marketplace.html">Marketplace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact1.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Section -->
+    <section id="Gallery">
+        <h1><b>Gallery</b></h1>
+        <div class="gallery-container">
+            <img src="https://i.pinimg.com/236x/b3/f5/ea/b3f5ea39083892aa6845dbdd9327463c.jpg" alt="Gallery Image 1">
+            <img src="https://i.pinimg.com/236x/a4/b9/9f/a4b99f26e30c18a1b35c5b95147b0986.jpg" alt="Gallery Image 2">
+            <img src="https://i.pinimg.com/236x/a1/41/fa/a141fa72d2ce86dfd62e9e48c975d112.jpg" alt="Gallery Image 3">
+            <img src="https://i.pinimg.com/236x/4c/a5/eb/4ca5eb6b1e98fbab331b05cbd55a7fbf.jpg" alt="Gallery Image 4">
+            <img src="https://i.pinimg.com/236x/fa/b8/ff/fab8ff19b918b4c90915c47db15dd51b.jpg" alt="Gallery Image 5">
+            <img src="https://i.pinimg.com/236x/66/b7/b2/66b7b2cc5447fd06d759232f5885b4ac.jpg" alt="Gallery Image 6">
+            <img src="https://i.pinimg.com/236x/c4/74/6f/c4746ff29a53851df21de8095cfde4bb.jpg" alt="Gallery Image 7">
+            <img src="https://i.pinimg.com/236x/63/a7/91/63a79197446ff867bc91adb203e8ab5f.jpg" alt="Gallery Image 8">
+            <img src="https://i.pinimg.com/236x/3e/ff/01/3eff01520ce533c62ef36c2cf69b683a.jpg" alt="Gallery Image 9">
+            <img src="https://i.pinimg.com/236x/c3/47/19/c34719c9b6933ade523b03074780bb63.jpg" alt="Gallery Image 10">
+            <img src="https://i.pinimg.com/236x/5f/22/a5/5f22a514d64c75dfbb4d23f163b23bd5.jpg" alt="Gallery Image 11">
+            <img src="https://i.pinimg.com/236x/28/da/79/28da79533d83562e12de3fea4ff05536.jpg" alt="Gallery Image 12">
+            <img src="https://i.pinimg.com/236x/b9/0f/28/b90f28c6ac79ba4ed4d08be95b73a3ad.jpg" alt="Gallery Image 13">
+            <img src="https://i.pinimg.com/736x/0c/39/b5/0c39b5393c85afab5fef56207b5f841b.jpg" alt="Gallery Image 14">
+            <img src="https://i.pinimg.com/236x/65/b2/6e/65b26edbcb93c4b93661d766d416ae9e.jpg" alt="Gallery Image 15">
+            <img src="https://i.pinimg.com/236x/1a/cc/6a/1acc6acac24e1e5799abdc0c25ac0752.jpg" alt="Gallery Image 16">
+            <img src="https://i.pinimg.com/236x/64/a6/4b/64a64be8c79b09b9053f9fa4e7c9b5c0.jpg" alt="Gallery Image 17">
+            <img src="https://i.pinimg.com/236x/7c/b7/7e/7cb77e1b0c90f67386066b991a96ddf9.jpg" alt="Gallery Image 18">
+            <img src="https://i.pinimg.com/236x/c3/34/a7/c334a768bd7485b5c0cb5618eb5847a1.jpg" alt="Gallery Image 19">
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

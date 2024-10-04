@@ -1,0 +1,33 @@
+/* Custom styles for navbar and page theme */
+.navbar {
+    padding: 15px;
+}
+
+.navbar-brand img {
+    /* Adjust the size of the logo */
+    height: 50px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.nav-link.underline {
+    text-decoration: underline;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffd700; /* Optional hover effect for links */
+}
+
+h1 {
+    color: hwb(0 96% 3%); /* Manchester United red */
+    font-weight: 700;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p.lead {
+    color: #000; /* Black for emphasis */
+}

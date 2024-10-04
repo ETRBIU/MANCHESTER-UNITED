@@ -1,0 +1,32 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Logo */
+.logo {
+    width: 50px;
+}
+
+/* Hero Banner */
+.hero-banner {
+    background: url('https://a.storyblok.com/f/274736/2880x1125/23333019f2/hero-banner-desktop.jpg/m/filters:quality(85)') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    color: #fff;
+}
+
+/* Feature Section */
+.features .feature-box {
+    padding: 20px;
+}
+
+.feature-box img {
+    width: 80px;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: #fff;
+}

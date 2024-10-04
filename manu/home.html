@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester United Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional Hover Styles */
+        .feature-box img {
+            transition: transform 0.3s ease;
+            border-radius: 10px;
+        }
+        .feature-box img:hover {
+            transform: scale(1.05);
+           
+        }
+        .btn-outline-danger:hover {
+            background-color: #dc3545;
+            color: white;
+        }
+        .btn-danger:hover {
+            background-color: #0b046b;
+            color: white;
+        }
+        .hero-banner {
+            background: url('https://a.storyblok.com/f/274736/1920x750/6c2053a93a/home-hero-banner-desktop.jpg/m/filters:quality(85)') center center / cover no-repeat;
+            height: 80vh;
+            position: relative;
+        }
+        .hero-banner h1, .hero-banner p {
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg" alt="Manchester United Logo" width="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="registration.html">Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="manugallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="marketplace.html">Marketplace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact1.html">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="registration.html" class="btn btn-outline-light me-2 justify-content-center">Sign In</a>
+                        <a href="registration.html" class="btn btn-danger justify-content-center">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center mt-5"></div>
+        <h1>Welcome to the Manchester United </h1>
+        <p class="lead">A Place Where Dreams Are Crashed.</p>
+    </div>
+    <style>
+        h1{
+            text-align: center;
+            font-weight: bold;
+
+        }
+        p{
+            text-align: center;
+            font-weight: bold;
+        }
+        .lead{
+            font-weight: bold;
+        }
+    </style>
+           
+    <!-- Hero Section -->
+    <section class="hero-banner text-center d-flex align-items-center justify-content-center">
+        <div class="container">
+            <h1 class="display-4 text-white">Stream the Latest Manchester United Action</h1>
+            <p class="lead text-white">Your one-stop destination for news, matches, and more.</p>
+            <a href="https://www.manutd.com/" class="btn btn-danger btn-lg mt-3">Watch Now</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <div class="feature-box">
+                        <img src="https://imgs.search.brave.com/ImjqAetvdxWQP2kDlW0eDPmJE293anMiHDcD3PxAD_o/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z2JuZXdzLmNvbS9t/ZWRpYS1saWJyYXJ5/L2VyaWstdGVuLWhh/Zy1pcy1jb21pbmct/dW5kZXItaW5jcmVh/c2luZy1wcmVzc3Vy/ZS5qcGc_aWQ9NTM3/MDQ5OTYmd2lkdGg9/MTIwMCZoZWlnaHQ9/ODAwJnF1YWxpdHk9/OTAmY29vcmRpbmF0/ZXM9MCwwLDAsNDg" alt="News" class="mb-3 img-fluid">
+                        <h3>Latest News</h3>
+                        <p>Stay updated with the latest news from the club.</p>
+                        <a href="https://www.manutd.com/" class="btn btn-outline-danger">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-box">
+                        <img src="https://imgs.search.brave.com/uDgTS7Uy1lx2FKm-6qPeI54Kdwa2awQU577pQagGn7o/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9saWJy/YXJ5LnNwb3J0aW5n/bmV3cy5jb20vc3R5/bGVzL2Nyb3Bfc3R5/bGVfMTZfOV9kZXNr/dG9wL3MzLzIwMjQt/MDkvR2V0dHlJbWFn/ZXMtMjE2OTA3ODc5/NC5qcGc_aD1mOThk/YTU2MiZpdG9rPThl/RXk5Ymhk" alt="Matches" class="mb-3 img-fluid">
+                        <h3>Live Matches</h3>
+                        <p>Watch live Manchester United matches in HD.</p>
+                        <a href="https://www.manutd.com/" class="btn btn-outline-danger">Watch Now</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-box">
+                        <img src="https://imgs.search.brave.com/_rggXr2JqIVe3XXTIFdOw7X8ePy4hKd-gGGJgjPpOaU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9hLnN0/b3J5Ymxvay5jb20v/Zi8yNzQ3MzYvMTA0/MngxMDQwL2Q5MzI4/ZGNhZmQvY2FyZC10/cmFpbmluZy5qcGcv/bS8zMDcyeDAvZmls/dGVyczpmb3JtYXQo/anBlZyk6cXVhbGl0/eSg4NSk.jpeg" alt="Shop" class="mb-3 img-fluid">
+                        <h3>Official Store</h3>
+                        <p>Get the latest merchandise from our official shop.</p>
+                        <a href="marketplace.html" class="btn btn-outline-danger">Shop Now</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-box">
+                        <img src="https://imgs.search.brave.com/HGiG5tZ7JyMl5LKVu6KnnYzf_7ewD686xfxaJIIFZmg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuZ29hbC5jb20v/aW1hZ2VzL3YzL2Js/dDFjZDE1MzVmYWQy/MTU0NjgvTWFuX1Vu/aXRlZF8tX0hhbm5p/YmFsX01lamJyaS5w/bmc_Zm9ybWF0PXBq/cGcmYXV0bz13ZWJw/JndpZHRoPTM4NDAm/cXVhbGl0eT02MA" alt="Tickets" class="mb-3 img-fluid">
+                        <h3>Buy Tickets</h3>
+                        <p>Secure your seats for the upcoming games.</p>
+                        <a href="https://www.manutd.com/" class="btn btn-outline-danger">Get Tickets</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark py-4">
+        <div class="container text-center">
+            <p class="text-white mb-0">&copy; 2024 Manchester United. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester United Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg" alt="Manchester United Logo" width="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="registration.html">Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="manugallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white underline" href="marketplace.html">Marketplace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact1.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container text-center mt-5">
+        <h1>Welcome to the Manchester United Marketplace</h1>
+        <p class="lead">Explore our exclusive collection of merchandise and collectables.</p>
+    </div>
+
+    <!-- Carousel Section (Auto-scrolling images) -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://a.storyblok.com/f/274736/2880x1125/23333019f2/hero-banner-desktop.jpg/m/filters:quality(85)" class="d-block w-100" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>New In</h5>
+                    <p>Presenting United's 24/25 European Trainingwear</p>
+                    <a class="btn btn-primary" href="https://store.manutd.com/en-us">Shop Now</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://a.storyblok.com/f/274736/1920x750/76653606e3/third-hero-banner-desktop.jpg/m/filters:quality(85)" class="d-block w-100" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>New Arrivals</h5>
+                    <p>Discover the latest merchandise</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://a.storyblok.com/f/274736/1920x750/633ef44535/away-hero-banner-desktop.jpg/m/filters:quality(85)" class="d-block w-100" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Exclusive Offers</h5>
+                    <p>Get exclusive deals and limited-edition items</p>
+                </div>
+            </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+ 
+
+    <!-- Product Filter and Grid Section -->
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Shop by Collection</h2>
+    <!-- Category Filter Buttons -->
+    <div class="d-flex justify-content-center mb-4">
+        <button class="btn btn-outline-secondary mx-2">All</button>
+        <button class="btn btn-outline-secondary mx-2">Jerseys</button>
+        <button class="btn btn-outline-secondary mx-2">Clothes</button>
+        <button class="btn btn-outline-secondary mx-2">Accessories</button>
+        <button class="btn btn-outline-secondary mx-2">Footwear</button>
+        <button class="btn btn-outline-secondary mx-2">Collectables</button>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="row text-center">
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="https://store.manutd.com/jersey/shirt-variants/away/away-front-small.jpg" class="card-img-top" alt="Product 1">
+                <div class="card-body">
+                    <h5 class="card-title">Blue jersery</h5>
+                    <p class="card-text">Ugx5000</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="https://store.manutd.com/jersey/shirt-variants/home/home-front-medium.jpg" class="card-img-top" alt="Product 2">
+                <div class="card-body">
+                    <h5 class="card-title">Red jersery</h5>
+                    <p class="card-text">Ugx5000</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="https://store.manutd.com/jersey/shirt-variants/gk/gk-front-medium.jpg" class="card-img-top" alt="Product 3">
+                <div class="card-body">
+                    <h5 class="card-title">skyblue jersery</h5>
+                    <p class="card-text">Ugx5000</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="https://store.manutd.com/jersey/shirt-variants/third/third-front-small.jpg" class="card-img-top" alt="Product 4">
+                <div class="card-body">
+                    <h5 class="card-title">White jersery</h5>
+                    <p class="card-text">Ugx5000</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container my-5">
+    <div class="row">
+        <!-- Row 1 -->
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://a.storyblok.com/f/274736/1042x1040/b97af31f17/card-pre-match.jpg/m/1280x0/filters:format(webp):quality(85)" class="card-img-top" alt="Product 1">
+                <div class="card-body">
+                    <h5 class="card-title">jersey</h5>
+                    <p class="card-text">Ugx1000</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://a.storyblok.com/f/274736/1042x1040/d9328dcafd/card-training.jpg/m/1280x0/filters:format(webp):quality(85)" class="card-img-top" alt="Product 2">
+                <div class="card-body">
+                    <h5 class="card-title">Tracksuit</h5>
+                    <p class="card-text">Ugx1000</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://a.storyblok.com/f/274736/940x1340/4f4b75e4a0/category-dna.jpg/m/filters:quality(85)" class="card-img-top" alt="Product 3">
+                <div class="card-body">
+                    <h5 class="card-title">Tracksuit</h5>
+                    <p class="card-text">Ugx1000</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://mufc-live.cdn.scayle.cloud/images/486641914b863e3d60ee2785005595b4.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff" class="card-img-top" alt="Hoodie">
+                <div class="card-body">
+                    <h5 class="card-title">Hoodie</h5>
+                    <p class="card-text">Ugx2000</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- Add a margin between rows -->
+    <div class="my-4"></div>
+    <!-- Row 2 -->
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://mufc-live.cdn.scayle.cloud/images/2f2aa72cb0c0ae9e5bf20814fbd510df.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff" class="card-img-top" alt="Hoodie">
+                <div class="card-body">
+                    <h5 class="card-title">Hoodie</h5>
+                    <p class="card-text">Ugx2000</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://mufc-live.cdn.scayle.cloud/images/d1fc6fd82e224c98d8f86bad2c0780ef.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff" class="card-img-top" alt="Product 6">
+                <div class="card-body">
+                    <h5 class="card-title">Headsock</h5>
+                    <p class="card-text">Ugx1000</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://mufc-live.cdn.scayle.cloud/images/e1d7e048666519f39ac46e81ba0bc46e.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff" class="card-img-top" alt="Product 7">
+                <div class="card-body">
+                    <h5 class="card-title">Headsock</h5>
+                    <p class="card-text">Ugx1000</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://mufc-live.cdn.scayle.cloud/images/e029c97eccd26c3e5bd5b22444478547.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff" class="card-img-top" alt="Product 8">
+                <div class="card-body">
+                    <h5 class="card-title">Cap</h5>
+                    <p class="card-text">Ugx1000</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+    <div class="row">
+        <!-- Row 1 -->
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://imgs.search.brave.com/gcHIYar45BeMxyY50XFDAWWxBr67cc-TL7r-j2zIzwE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZm9vdGJhbGxm/YW5hdGljcy5jb20v/bWFuY2hlc3Rlci11/bml0ZWQvbWFuY2hl/c3Rlci11bml0ZWQt/Zm9vdGJhbGwtYmVh/ci0xOGNtX3NzNV9w/LTIwMDc4NTcxOCt1/LWJjeWprZ2lwcTRp/NmhicXFrOW9jK3Yt/YnhjazJ6MmxoZmdw/a3ZwZXgzaWguanBn/P19odj0yJnc9MzQw" class="card-img-top" alt="Product 1">
+                <div class="card-body">
+                    <h5 class="card-title">Emotional Support</h5>
+                    <p class="card-text">Free</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Get Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://imgs.search.brave.com/RS6j-5wabA00NaTKlVjxOy3jy1VPo5G2ZFwmqO6AESE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZm9vdGJhbGxm/YW5hdGljcy5jb20v/bWFuY2hlc3Rlci11/bml0ZWQvbWFuY2hl/c3Rlci11bml0ZWQt/YWRpZGFzLWQ0Z21k/eS10cmF2ZWwtamFj/a2V0LWdyZWVuX3Nz/NV9wLTEzMzg1MDQ2/K3UtNGN4Y2kwYmdy/bnlueGFtZmJrZGcr/di1xa2dkcGNlcDlu/bnJjZ3Jrc3Fiei5q/cGc_X2h2PTImdz0z/NDA" class="card-img-top" alt="Product 2">
+                <div class="card-body">
+                    <h5 class="card-title">Trainersjackets</h5>
+                    <p class="card-text">Ugx2000</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://imgs.search.brave.com/7nhVT2WgW74wPK6qk-6yXpTUUoqE6Wn16PecYple9S0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuYWRpZGFzLmNv/bS9pbWFnZXMvd18z/ODMsaF8zODMsZl9h/dXRvLHFfYXV0byxm/bF9sb3NzeSxjX2Zp/bGwsZ19hdXRvLzMy/ODUzMzc5ZGIyNTQ1/MWU4NzkwNjlmNjYy/YTkxY2FiXzkzNjYv/bWFuY2hlc3Rlci11/bml0ZWQtMjQtMjUt/YXdheS1zaG9ydHMu/anBn" class="card-img-top" alt="Product 3">
+                <div class="card-body">
+                    <h5 class="card-title">Shorts</h5>
+                    <p class="card-text">Ugx500</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://imgs.search.brave.com/fZZthh3raHgFCFydQragHvQJt9FByYT3cZ2kB546bWc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZm9vdGJhbGxm/YW5hdGljcy5jb20v/bWFuY2hlc3Rlci11/bml0ZWQvbWFuY2hl/c3Rlci11bml0ZWQt/YWRpZGFzLWVzc2Vu/dGlhbHMtbWlkd2Vp/Z2h0LWRvd24taG9v/ZGVkLWphY2tldC1s/ZWdlbmQtaW5rLW1l/bnNfc3M1X3AtMTQ0/MDU5MTArdS1vNHJh/OXd0emF4YWM4ZGdl/eWduNSt2LXJ2ZHhn/d2tocXFrbHBmenJ0/anJoLmpwZz9faHY9/MiZ3PTM0MA" class="card-img-top" alt="Product 4">
+                <div class="card-body">
+                    <h5 class="card-title">Jacket</h5>
+                    <p class="card-text">Ugx1000</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://imgs.search.brave.com/E91D-4LT7SKyk-DhRHx_je5N1Uk_J2YZPcmHEgRFAtc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTExLTdqeVg5WUwu/anBn" class="card-img-top" alt="Product 5">
+                <div class="card-body">
+                    <h5 class="card-title">Stickers</h5>
+                    <p class="card-text">Ugx1</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://imgs.search.brave.com/J-gf1RiavxredS-lh5Z_mQQiexjX9idXK_RULuP08Zs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZm9vdGJhbGxm/YW5hdGljcy5jb20v/bWFuY2hlc3Rlci11/bml0ZWQvbWFuY2hl/c3Rlci11bml0ZWQt/YWRpZGFzLWJhY2tw/YWNrLXJlZF9zczVf/cC0yMDA5NTUxMzMr/dS1jNmh5YXNmeTRy/c3AxbHZlMmExbyt2/LWRhZ2l1cWdpaHlu/dXFzemhiY2Z2Lmpw/Zz9faHY9MiZ3PTM0/MA" class="card-img-top" alt="Product 6">
+                <div class="card-body">
+                    <h5 class="card-title">Bag</h5>
+                    <p class="card-text">Ugx500</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://imgs.search.brave.com/YY10zaH1MQ5PSZeIRHBr-2MrB4ary3V7VJBqgt-ugp4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFLZTRLRWl3UEwu/anBn" class="card-img-top" alt="Product 7">
+                <div class="card-body">
+                    <h5 class="card-title">Hoodie</h5>
+                    <p class="card-text">$95</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://imgs.search.brave.com/hqe5WDprj9hNQlvXBKwZ4DmKi-ivm79QuNmyU0ulcgc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzI4NjQ0ODczL2Mv/MTY4My8xNjgzLzIv/MC9pbC9lMmJjMzcv/NDAzOTUxMDM1MS9p/bF82MDB4NjAwLjQw/Mzk1MTAzNTFfYmk2/ZS5qcGc" class="card-img-top" alt="Gifts">
+                <div class="card-body">
+                    <h5 class="card-title">Gifts</h5>
+                    <p class="card-text">Free</p>
+                    <a href="https://store.manutd.com/en-us" class="btn btn-primary">Get Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row">
+            <!-- Row 1 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://imgs.search.brave.com/_GZg8RqNdeN2rc-C8Kd29e0b8ynfl1IN1wlFwltxPW8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZm9vdGJhbGxm/YW5hdGljcy5jb20v/bWFuY2hlc3Rlci11/bml0ZWQvbWFuY2hl/c3Rlci11bml0ZWQt/cmVtaW5ndG9uLWhl/cml0YWdlLWNsaXBw/ZXJfc3M0X3AtMTIw/MDM1NzErdS13dTJ3/dTV2NHk1bGlkZ3Q2/bGs4Mit2LTZmYzk2/ZTJlMjAyZTRhYTBh/M2E0ZGMzYTE5ODcz/NGIxLmpwZz9faHY9/MiZ3PTM0MA" class="card-img-top" alt="Razer">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer</h5>
+                        <p class="card-text">Ugx500</p>
+                        <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://imgs.search.brave.com/C-Lp435Iszsp5XvyDaZKFMUgpruT8-6F69df25Pmql8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZm9vdGJhbGxm/YW5hdGljcy5jb20v/bWFuY2hlc3Rlci11/bml0ZWQvd29tZW5z/LWFkaWRhcy1uZW9u/LWdyZWVuLW1hbmNo/ZXN0ZXItdW5pdGVk/LTIwMjIvMjMtdGhp/cmQtcmVwbGljYS1q/ZXJzZXlfcGk0OTk3/MDAwX2ZmXzQ5OTcz/NDYtZjBlNjNlNGNh/ZDZiZTFkNWVhNDhf/ZnVsbC5qcGc_X2h2/PTImdz0zNDA" class="card-img-top" alt="Women's Neon Green">
+                    <div class="card-body">
+                        <h5 class="card-title">Women Neon Green</h5>
+                        <p class="card-text">Ugx1000</p>
+                        <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://imgs.search.brave.com/Z8vR-Tdi4EY6I2xvAsJ26qR9FqcU_pfVK3o3PR02smA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZm9vdGJhbGxm/YW5hdGljcy5jb20v/bWFuY2hlc3Rlci11/bml0ZWQvbWVucy1h/ZGlkYXMtbmF2eS1t/YW5jaGVzdGVyLXVu/aXRlZC1jbHViLWNy/ZXN0LWFlcm9yZWFk/eS10cmFpbmluZy1w/YW50c19waTQ1ODAw/MDBfZmZfNDU4MDcy/Ny1mN2Y0MzI5MDYy/NDhlYjNhNjM3OV9m/dWxsLmpwZz9faHY9/MiZ3PTM0MA" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Trainers</h5>
+                        <p class="card-text">Ugx2000</p>
+                        <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://imgs.search.brave.com/YOMpnVhKzG8ajX92yctmDRbpOI3hR0R5CV_69R8BYSo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZm9vdGJhbGxm/YW5hdGljcy5jb20v/bWFuY2hlc3Rlci11/bml0ZWQvd29tZW5z/LWFkaWRhcy1ncmVl/bi1tYW5jaGVzdGVy/LXVuaXRlZC0yMDIz/LzI0LWF3YXktcmVw/bGljYS1qZXJzZXlf/c3M1X3AtMjAwMzQx/NjA0K3UtM29mbXhx/bTF1cW1ldm5sdjRt/NTQrdi1hcWR6bGVp/cXJzMnlibnZkZjJw/aC5qcGc_X2h2PTIm/dz0zNDA" class="card-img-top" alt="Product 4">
+                    <div class="card-body">
+                        <h5 class="card-title">jersery</h5>
+                        <p class="card-text">Ugx5000</p>
+                        <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://imgs.search.brave.com/8suQ_LfQbgWqGA0dGrWxyd-6XQIJaY87KMhkNkESaps/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFPb2lPRi1jOVMu/anBn" class="card-img-top" alt="Product 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Bathrobe</h5>
+                        <p class="card-text">Ugx1000</p>
+                        <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://imgs.search.brave.com/0rXjIia9fWONRlV18Jg6CJpxqhCV_ZBqezpF15wPrMY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZm9vdGJhbGxm/YW5hdGljcy5jb20v/bWFuY2hlc3Rlci11/bml0ZWQvbWFuY2hl/c3Rlci11bml0ZWQt/YWRpZGFzLWdvbGYt/Z28tdG8tcHJpbnRl/ZC1tZXNoLXBvbG8t/c2hpcnQtYmxhY2st/bWVuc19zczVfcC0y/MDA5MzQ0MDcrdS1w/bW9uZmpsbXZpaDNq/YWIyNXRrbSt2LWkw/dm43ZG1ka2Z4bHY0/MXJkd2Q0LmpwZz9f/aHY9MiZ3PTM0MA" class="card-img-top" alt="Product 6">
+                    <div class="card-body">
+                        <h5 class="card-title">T-Shirts</h5>
+                        <p class="card-text">Ugx1000</p>
+                        <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://imgs.search.brave.com/YVmodl-Wjxz3y0V6BYF3Qsed0Rjpc3NC7bBprhNugdg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzBkL2Zk/LzEyLzBkZmQxMjM5/OGI2OTVhNWIzNDhl/YTA4ZmM5ZmQyZDM0/LmpwZw" class="card-img-top" alt="Product 7">
+                    <div class="card-body">
+                        <h5 class="card-title">New Balance</h5>
+                        <p class="card-text">Ugx100000</p>
+                        <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://imgs.search.brave.com/2Ke9zQuhTQsp1Z4m95X4UXxxM-1i0qZ29P5UvQd51Dk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA3LzUxLzUwLzE5/LzM2MF9GXzc1MTUw/MTk1N19mNm52bGx5/b1BsOVRNMlY2cG1s/ZmpaQXNJdDFORjdn/Sy5qcGc" class="card-img-top" alt="Product 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Golden nikes</h5>
+                        <p class="card-text">Ugx10000000</p>
+                        <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="row">
+                <!-- Row 1 -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://imgs.search.brave.com/WEQ7dfmCX5ZXYVpMoTKVq1yD4wba4hR1HuACuGMBbsY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9m/YXNoaW9uLXNob2Vz/LXNuZWFrZXJzXzEy/MDMtNzUyOS5qcGc_/c2l6ZT02MjYmZXh0/PWpwZw" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">high top Sneakers</h5>
+                            <p class="card-text">Ugx100000</p>
+                            <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://imgs.search.brave.com/ANL9DuQMd98YwsPWzDt_HiD2g556dxk46DJgR19u40E/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzA0LzYxLzIy/LzM2MF9GXzgwNDYx/MjIyN19YeWFMdkRM/bVRrMDY1dzBCTTA2/NkN0M256MXRVMTlF/Ry5qcGc" class="card-img-top" alt="Product 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Sneakers</h5>
+                            <p class="card-text">Ugx100000</p>
+                            <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://mufc-live.cdn.scayle.cloud/images/ad66523728dab4a88566ae88f96dbde7.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff" class="card-img-top" alt="Product 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Abibbas shoes</h5>
+                            <p class="card-text">Ugx5000</p>
+                            <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://mufc-live.cdn.scayle.cloud/images/86ba90f0480cf420fef8cf5f056f4ff5.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff" class="card-img-top" alt="Product 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Scarf</h5>
+                            <p class="card-text">Ugx5000</p>
+                            <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add a margin between rows -->
+            <div class="my-4"></div>
+            <!-- Row 2 -->
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://mufc-live.cdn.scayle.cloud/images/3b69a52bb50d694437976ce675e2a936.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff" class="card-img-top" alt="Product 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Gloves</h5>
+                            <p class="card-text">Ugx5000</p>
+                            <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://mufc-live.cdn.scayle.cloud/images/bccf86063135d738c9d67e7907f8c665.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff" class="card-img-top" alt="Product 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Bottle</h5>
+                            <p class="card-text">Ugx5000</p>
+                            <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://mufc-live.cdn.scayle.cloud/images/7ec60e688c0b4f1ed9273ff953b76cb4.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff" class="card-img-top" alt="Product 7">
+                        <div class="card-body">
+                            <h5 class="card-title">Coffe Cup</h5>
+                            <p class="card-text">Ugx5000</p>
+                            <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://mufc-live.cdn.scayle.cloud/images/81dddee6902c4173e918761b45884cbe.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff" class="card-img-top" alt="Product 8">
+                        <div class="card-body">
+                            <h5 class="card-title">Flask</h5>
+                            <p class="card-text">Ugx5000</p>
+                            <a href="https://store.manutd.com/en-us" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+           
+        
+  <!-- Footer Section -->
+    <!-- <footer class="bg-dark py-4 mt-5">
+        <div class="container text-center">
+            <p class="text-white mb-0">&copy; 2024 Manchester United. All rights reserved.</p>
+            <p class="text-white mt-2">Visit our <a href="https://store.manutd.com/en-us" class="text-decoration-none text-warning">Official Store</a> for merchandise.</p>
+        </div>
+    </footer>   -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
