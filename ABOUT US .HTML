@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester United Theme Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .navbar {
+            background-color: #d2232a;
+        }
+
+        .navbar-brand img {
+            border-radius: 50%;
+        }
+
+        .nav-link {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .mainDiv {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .card {
+            border: none;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .card-title {
+            font-weight: bold;
+            color: #d2232a;
+        }
+
+        .card-body {
+            background-color: #f8f9fa;
+        }
+
+        .table {
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .table th {
+            background-color: #d2232a;
+            color: white;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .table tbody tr:hover {
+            background-color: #ddd;
+        }
+
+        footer {
+            background-color: #d2232a;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background-color: #d2232a;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #b91c25;
+        }
+
+        a.text-warning {
+            color: #f1c40f;
+        }
+
+        a.text-warning:hover {
+            color: #d4ac0d;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg" alt="Manchester United Logo" width="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white underline" href="#">Marketplace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mainDiv">
+        <div class="row">
+            <!-- Left Column: Club History -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">CLUB HISTORY</h3>
+                        <h5 class="card-title">VISION</h5>
+                        <p>Our goal: To be the best football club in the world, both on and off the pitch.</p>
+                        <h5 class="card-title">MISSION</h5>
+                        <p>Our mission is to bridge the gap between the past and present, ensuring that young fans have the same cherished experience as their parents did.</p>
+                        <h5 class="card-title">ABOUT US</h5>
+                        <p>Through our 141 years of heritage, we have won 66 trophies, including a record of 20 English league titles, and built a global community of 1.1 billion fans.</p>
+                        <p>The club was formed as Newton Heath LYR football club in 1878. In 1892, the club split and remained under private ownership for over 100 years, eventually changing its name to Manchester United after being saved from bankruptcy in 1902.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Club Details, Players, and Coaches -->
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">CLUB OWNERSHIP</h3>
+                        <p>Currently, Manchester United owns 72.3%, and Trawlers Ltd. owns 27.7%.</p>
+                        <h5 class="card-title">Co-Chairmen</h5>
+                        <p>Joel Glazer<br>Avram Glazer</p>
+
+                        <h3>COACHES</h3>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>NAME</th>
+                                    <th>FROM YEAR</th>
+                                    <th>TO YEAR</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Erik Ten Hag</td>
+                                    <td>01 Jul, 2022</td>
+                                    <td>Present</td>
+                                </tr>
+                                <tr>
+                                    <td>Ole Gunnar Solskjaer</td>
+                                    <td>19 Dec, 2018</td>
+                                    <td>21 Nov, 2021</td>
+                                </tr>
+                                <tr>
+                                    <td>Alex Ferguson</td>
+                                    <td>06 Nov, 1986</td>
+                                    <td>19 May, 2013</td>
+                                </tr>
+                                <!-- Add more coaches as needed -->
+                            </tbody>
+                        </table>
+
+                        <h3>PLAYERS</h3>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>PLAYER NAME</th>
+                                    <th>POSITION</th>
+                                    <th>SHIRT NO.</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Andre Onana</td>
+                                    <td>Goalkeeper</td>
+                                    <td>24</td>
+                                </tr>
+                                <tr>
+                                    <td>Harry Maguire</td>
+                                    <td>Defender</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>Bruno Fernandes</td>
+                                    <td>Midfielder</td>
+                                    <td>8</td>
+                                </tr>
+                                <!-- Add more players as needed -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Section: News & Updates -->
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">LATEST NEWS</h3>
+                        <p>Stay updated with the latest Manchester United news. Here's a preview of some of the recent headlines:</p>
+                        <ul>
+                            <li><a href="#">Match Recap: United vs City</a></li>
+                            <li><a href="#">Player Spotlight: Bruno Fernandes</a></li>
+                            <li><a href="#">Upcoming Fixtures for 2024</a></li>
+                            <!-- More news headlines -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Fan Testimonials
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">FAN TESTIMONIALS</h3>
+                        <p>Read what fans around the world have to say about their experience being a Manchester United fan:</p>
+                        <blockquote>
+                            "I've been a lifelong fan of Manchester United. Watching them win trophies over the years has been a privilege."
+                            <footer class="blockquote-footer">James, UK</footer>
+                        </blockquote> <br>
+                        <blockquote>
+                            "Manchester United's community outreach programs inspire me. It's not just about football but making a difference in people's lives."
+                            <footer class="blockquote-footer">Sarah, Uganda</footer>
+                        </blockquote> <br>
+                         Add more fan testimonials -->
+                    <!-- </div>
+                </div>
+            </div>
+        </div>
+    </div>   -->
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Manchester United. All rights reserved.</p>
+        <p>Visit our <a href="https://store.manutd.com/en-us" class="text-warning">Official Store</a> for merchandise.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
